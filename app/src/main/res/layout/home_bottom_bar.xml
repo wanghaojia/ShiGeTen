@@ -1,0 +1,126 @@
+<?xml version="1" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <View
+        android:id="@id/line1"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/line_height"
+        android:background="@color/line_back" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/title_back"
+        android:orientation="horizontal">
+        <RelativeLayout
+            android:id="@id/critic"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@id/criticimg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:scaleType="fitEnd"
+                android:src="@drawable/home_critic_focus" />
+
+            <View
+                android:id="@id/critic_line"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/home_bottom_line_height"
+                android:layout_below="@id/criticimg"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="@dimen/home_bottom_line_margin"
+                android:layout_marginRight="@dimen/home_bottom_line_margin"
+                android:background="@color/black"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@id/novel"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@id/novelimg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:scaleType="fitEnd"
+                android:src="@drawable/home_novel" />
+
+            <View
+                android:id="@id/novel_line"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/home_bottom_line_height"
+                android:layout_below="@id/novelimg"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="@dimen/home_bottom_line_margin"
+                android:layout_marginRight="@dimen/home_bottom_line_margin"
+                android:background="@color/black"
+                android:visibility="invisible" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@id/diagram"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@id/diagramimg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:scaleType="fitEnd"
+                android:src="@drawable/home_diagram" />
+
+            <View
+                android:id="@id/diagram_line"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/home_bottom_line_height"
+                android:layout_below="@id/diagramimg"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="@dimen/home_bottom_line_margin"
+                android:layout_marginRight="@dimen/home_bottom_line_margin"
+                android:background="@color/black"
+                android:visibility="invisible"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@id/setting"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@id/settingimg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:scaleType="fitEnd"
+                android:src="@drawable/home_personal" />
+
+            <View
+                android:id="@id/setting_line"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/home_bottom_line_height"
+                android:layout_below="@id/settingimg"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="@dimen/home_bottom_line_margin"
+                android:layout_marginRight="@dimen/home_bottom_line_margin"
+                android:background="@color/black"
+                android:visibility="invisible" />
+        </RelativeLayout>
+    </LinearLayout>
+    <View
+        android:id="@id/line1"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/line_height"
+        android:background="@color/line_back" />
+</LinearLayout>

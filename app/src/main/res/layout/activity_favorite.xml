@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white">
+
+    <View
+        android:id="@id/line1"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/line_height"
+        android:background="@color/line_back" />
+
+    <LinearLayout
+        android:id="@id/title"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/title_height"
+        android:layout_below="@id/line1"
+        android:background="@color/title_back"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@id/back"
+            android:layout_width="@dimen/setting_icon_height"
+            android:layout_height="@dimen/setting_icon_height"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="12.0dip"
+            android:onClick="myClick"
+            android:background="@drawable/back" />
+
+        <TextView
+            android:id="@id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="收藏"
+            android:textAppearance="@style/titleFont" />
+    </LinearLayout>
+
+    <View
+        android:id="@id/line2"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/line_height"
+        android:layout_below="@id/title"
+        android:background="@color/line_back" />
+
+    <ListView
+        android:id="@id/favoritelist"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/line2"
+        android:layout_marginLeft="@dimen/setting_margin_left"
+        android:divider="@color/line_back"
+        android:dividerHeight="1.0dip" />
+
+    <LinearLayout
+        android:id="@id/no_favorite"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/icon_favorite_tip" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:text="点击文章右上角图标\n即可收藏文章"
+            android:textAppearance="@style/noFavoriteFont" />
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppBaseTheme" parent="@style/Theme.AppCompat.Light.NoActionBar" />
+    <style name="AppTheme" parent="@style/AppBaseTheme" />
+    <style name="Font18">
+        <item name="android:textSize">14sp</item>
+    </style>
+    <style name="Font20">
+        <item name="android:textSize">16sp</item>
+    </style>
+    <style name="Font24">
+        <item name="android:textSize">18sp</item>
+    </style>
+    <style name="Font28">
+        <item name="android:textSize">20sp</item>
+    </style>
+    <style name="Font32">
+        <item name="android:textSize">23sp</item>
+    </style>
+    <style name="Font36">
+        <item name="android:textSize">26sp</item>
+    </style>
+    <style name="Font42">
+        <item name="android:textSize">30sp</item>
+    </style>
+    <style name="Font48">
+        <item name="android:textSize">34sp</item>
+    </style>
+
+    <style name="diagramFont" parent="@style/Font18">
+        <item name="android:textColor">#ff464646</item>
+    </style>
+    <style name="titleFont" parent="@style/Font32">
+        <item name="android:textColor">#ff000000</item>
+    </style>
+    <style name="settingItemFont" parent="@style/Font28">
+        <item name="android:textColor">#ff464646</item>
+    </style>
+    <style name="favoriteTitleFont" parent="@style/Font28">
+        <item name="android:textColor">#ff464646</item>
+    </style>
+    <style name="favoritesummaryFont" parent="@style/Font24">
+        <item name="android:textColor">#ff949494</item>
+    </style>
+    <style name="settingversion" parent="@style/Font18">
+        <item name="android:textColor">#ffd5d5d5</item>
+    </style>
+    <style name="authorFont" parent="@style/Font18">
+        <item name="android:textColor">#ff949494</item>
+    </style>
+    <style name="contentTitleFont" parent="@style/Font32">
+        <item name="android:textColor">#ff464646</item>
+    </style>
+    <style name="summaryFont" parent="@style/Font24">
+        <item name="android:textColor">#ff6ca6cd</item>
+    </style>
+    <style name="noFavoriteFont" parent="@style/Font28">
+        <item name="android:textColor">#ff949494</item>
+    </style>
+    <style name="authorbriefFont" parent="@style/Font20">
+        <item name="android:textColor">#ff777777</item>
+    </style>
+    <style name="authorbelowFont" parent="@style/Font24">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ff464646</item>
+    </style>
+    <style name="feedbackFont" parent="@style/Font20">
+        <item name="android:textColor">#ff949494</item>
+    </style>
+</resources>

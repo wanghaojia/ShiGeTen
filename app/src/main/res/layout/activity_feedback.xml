@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <View
+        android:id="@id/line1"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/line_height"
+        android:background="@color/line_back" />
+
+    <LinearLayout
+        android:id="@id/title"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/title_height"
+        android:layout_below="@id/line1"
+        android:background="@color/title_back"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@id/back"
+            android:layout_width="@dimen/setting_icon_height"
+            android:layout_height="@dimen/setting_icon_height"
+            android:onClick="myClick"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="12.0dip"
+            android:background="@drawable/back" />
+
+        <TextView
+            android:id="@id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="意见反馈"
+            android:textAppearance="@style/titleFont" />
+    </LinearLayout>
+
+    <View
+        android:id="@id/line2"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/line_height"
+        android:layout_below="@id/title"
+        android:background="@color/line_back" />
+
+    <TextView
+        android:id="@id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/line2"
+        android:layout_gravity="center_vertical"
+        android:layout_marginBottom="15.0dip"
+        android:layout_marginLeft="25.0dip"
+        android:layout_marginRight="25.0dip"
+        android:layout_marginTop="20.0dip"
+        android:text="添加微信公众帐号或QQ反馈后会第一时间解决问题"
+        android:textAppearance="@style/feedbackFont" />
+
+    <View
+        android:id="@id/line4"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/line_height"
+        android:layout_below="@id/text"
+        android:layout_marginLeft="15.0dip"
+        android:background="@color/line_back" />
+
+    <View
+        android:id="@id/line3"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/line_height"
+        android:layout_below="@id/wechat"
+        android:layout_marginLeft="15.0dip"
+        android:background="@color/line_back" />
+
+    <LinearLayout
+        android:id="@id/qq"
+        android:layout_width="match_parent"
+        android:layout_height="90.0dip"
+        android:layout_below="@id/wechat"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="60.0dip"
+            android:layout_height="60.0dip"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="25.0dip"
+            android:background="@drawable/feedback_qq" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="15.0dip"
+            android:text="添加QQ：551608331"
+            android:textAppearance="@style/feedbackFont" />
+    </LinearLayout>
+
+    <View
+        android:id="@id/line5"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/line_height"
+        android:layout_below="@id/qq"
+        android:layout_marginLeft="15.0dip"
+        android:background="@color/line_back" />
+
+    <LinearLayout
+        android:id="@id/wechat"
+        android:layout_width="match_parent"
+        android:layout_height="90.0dip"
+        android:orientation="horizontal"
+        android:layout_below="@+id/line4"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <ImageView
+            android:layout_width="60.0dip"
+            android:layout_height="60.0dip"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="25.0dip"
+            android:background="@drawable/feedback_wechat" />
+
+        <TextView
+            android:id="@id/tv_wechat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="15.0dip"
+            android:text="@string/wechat"
+            android:textAppearance="@style/feedbackFont" />
+    </LinearLayout>
+</RelativeLayout>

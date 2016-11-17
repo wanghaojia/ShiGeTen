@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#ff000000</color>
+    <color name="white">#ffffffff</color>
+    <color name="title_back">#fff6f6f6</color>
+    <color name="line_back">#ffe7e7e7</color>
+    <color name="color464646">#ff464646</color>
+    <color name="color949494">#ff949494</color>
+    <color name="colorf6f6f6">#fff6f6f6</color>
+    <color name="fontsizeselect">#ff00ffff</color>
+    <color name="summary_line_back">#ffeaeaea</color>
+    <color name="helper_bg">#9c000000</color>
+</resources>

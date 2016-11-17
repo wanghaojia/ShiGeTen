@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\JIA\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.8.0\c4ba5371a29ac9b2ad6129b1d39ea38750043eff\gson-2.8.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c4ba5371a29ac9b2ad6129b1d39ea38750043eff">
+        <dex dex="D:\workspace\AndroidWorkspace\QFWorkSpace\ShiGeTen\app\build\intermediates\pre-dexed\debug\gson-2.8.0_6f8b7becfc0a7ba9c2aaf48fa27cccc6549dacee.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\JIA\.gradle\caches\modules-2\files-2.1\com.squareup.picasso\picasso\2.5.2\7446d06ec8d4f7ffcc53f1da37c95f200dcb9387\picasso-2.5.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="D:\workspace\AndroidWorkspace\QFWorkSpace\ShiGeTen\app\build\intermediates\pre-dexed\debug\picasso-2.5.2_5cc8cb515a8bae1c008c0c5deb23b35e2bb23592.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\JIA\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.9.0\f824591a0016efbaeddb8300bee54832a1398cfa\okio-1.9.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f824591a0016efbaeddb8300bee54832a1398cfa">
+        <dex dex="D:\workspace\AndroidWorkspace\QFWorkSpace\ShiGeTen\app\build\intermediates\pre-dexed\debug\okio-1.9.0_2a922a7ac3ad87148bd499e75d4b0c2a6e8226a8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\workspace\AndroidWorkspace\QFWorkSpace\ShiGeTen\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="76fb65a4b41ea42dab8a1310ed772a2420c96b52">
+        <dex dex="D:\workspace\AndroidWorkspace\QFWorkSpace\ShiGeTen\app\build\intermediates\pre-dexed\debug\com.android.support-support-media-compat-25.0.0_f62a6975c9a120abeb153e21039f7a72c580e6e1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\workspace\AndroidWorkspace\QFWorkSpace\ShiGeTen\app\build\intermediates\exploded-aar\com.android.support\transition\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="0c6d948e6cb9ea6f535d175fb61ba2930719c0e9">
+        <dex dex="D:\workspace\AndroidWorkspace\QFWorkSpace\ShiGeTen\app\build\intermediates\pre-dexed\debug\com.android.support-transition-25.0.0_91b958022588718f7051b2e3802f206bd33a9b48.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\workspace\AndroidWorkspace\QFWorkSpace\ShiGeTen\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="75b1f366ff0bbc78f8b1f7cf0dc82e7c53afef6a">
+        <dex dex="D:\workspace\AndroidWorkspace\QFWorkSpace\ShiGeTen\app\build\intermediates\pre-dexed\debug\com.android.support-support-compat-25.0.0_ba8fc828ae2dbcb4d36f6dc675db6e2c3178e2e0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\workspace\AndroidWorkspace\QFWorkSpace\ShiGeTen\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.0\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="665d21a8a069c96b4d9e8b434f5096d865b4e261">
+        <dex dex="D:\workspace\AndroidWorkspace\QFWorkSpace\ShiGeTen\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.0_905f53891483f9b7d0ea28b1ec1ea247b1c4061c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\JIA\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.4.1\c7c4f9e35c2fd5900da24f9872e3971801f08ce0\okhttp-3.4.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c7c4f9e35c2fd5900da24f9872e3971801f08ce0">
+        <dex dex="D:\workspace\AndroidWorkspace\QFWorkSpace\ShiGeTen\app\build\intermediates\pre-dexed\debug\okhttp-3.4.1_84036dc954c58df7f4dd401a1073040255fd3669.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\workspace\AndroidWorkspace\QFWorkSpace\ShiGeTen\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.0\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
+        <dex dex="D:\workspace\AndroidWorkspace\QFWorkSpace\ShiGeTen\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.0_e87862f940cf5c11ca945a616a570ef459f94930.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\workspace\AndroidWorkspace\QFWorkSpace\ShiGeTen\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4ccbcda5c72027c7f7c14be9ff8640d9cb0d8da0">
+        <dex dex="D:\workspace\AndroidWorkspace\QFWorkSpace\ShiGeTen\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-utils-25.0.0_06ca2701f16c8e104a1a46e725f62e5e8b9d7aef.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\workspace\AndroidWorkspace\QFWorkSpace\ShiGeTen\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="D:\workspace\AndroidWorkspace\QFWorkSpace\ShiGeTen\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-25.0.0_2f1d15ce9ac5aa32b59351cecc04dad55fe2bb06.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\workspace\AndroidWorkspace\QFWorkSpace\ShiGeTen\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="5e497d60f0cb6ce87c458ac5420a46d0fed49bd0">
+        <dex dex="D:\workspace\AndroidWorkspace\QFWorkSpace\ShiGeTen\app\build\intermediates\pre-dexed\debug\com.android.support-recyclerview-v7-25.0.0_93f76a586ddb21c6b0ea4f52c3d7ac2ecf68adfc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\workspace\AndroidWorkspace\QFWorkSpace\ShiGeTen\app\build\intermediates\exploded-aar\com.android.support\design\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="26384be22ddc74cfe197ebda9edbc7d1fd8bd537">
+        <dex dex="D:\workspace\AndroidWorkspace\QFWorkSpace\ShiGeTen\app\build\intermediates\pre-dexed\debug\com.android.support-design-25.0.0_2d225746ea47ea149b0ebe896119d2956fb2f8cc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\workspace\AndroidWorkspace\QFWorkSpace\ShiGeTen\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d29714cc76b38157e3cbd034c66e1ec808eb4c19">
+        <dex dex="D:\workspace\AndroidWorkspace\QFWorkSpace\ShiGeTen\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-25.0.0_6d4d670836d40fde6f5dfdfd763b441f837aeb29.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\workspace\AndroidWorkspace\QFWorkSpace\ShiGeTen\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="60facd03f8480ee4dba490ee75bde1c047c39c67">
+        <dex dex="D:\workspace\AndroidWorkspace\QFWorkSpace\ShiGeTen\app\build\intermediates\pre-dexed\debug\instant-run-bootstrap_e3ee757874b802b0fd0cf3773401db40e6374619.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\workspace\AndroidWorkspace\QFWorkSpace\ShiGeTen\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.0\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f2e3b9bc1ec25f652e8007ce7774c991e38f6a00">
+        <dex dex="D:\workspace\AndroidWorkspace\QFWorkSpace\ShiGeTen\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.0_3ac403d8d3008f288dbb505d7a465e5e4b19ff64.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Android\Android-SDK\extras\android\m2repository\com\android\support\support-annotations\25.0.0\support-annotations-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a22d2cc94da87b254451fa8ed28afc30b4653773">
+        <dex dex="D:\workspace\AndroidWorkspace\QFWorkSpace\ShiGeTen\app\build\intermediates\pre-dexed\debug\support-annotations-25.0.0_33ad68c1adaf95bc08323d172dd09d325a8ae055.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\workspace\AndroidWorkspace\QFWorkSpace\ShiGeTen\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8bc45ce1f63d1a391fd38b32a201be5a42f9c95d">
+        <dex dex="D:\workspace\AndroidWorkspace\QFWorkSpace\ShiGeTen\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-25.0.0_2aed88b2b575cf7d2112bd1bf86ef730ce5ae430.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\workspace\AndroidWorkspace\QFWorkSpace\ShiGeTen\app\build\intermediates\exploded-aar\com.zhy\okhttputils\2.6.2\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="155fef2600f48631a9e9665c0873743b6d24e324">
+        <dex dex="D:\workspace\AndroidWorkspace\QFWorkSpace\ShiGeTen\app\build\intermediates\pre-dexed\debug\com.zhy-okhttputils-2.6.2_cde96b1cb5001ba62a7b816e41d30ca2ffbae236.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\workspace\AndroidWorkspace\QFWorkSpace\ShiGeTen\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.0\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3b61a70884adaf0be3fc06c70c801e3e6df13133">
+        <dex dex="D:\workspace\AndroidWorkspace\QFWorkSpace\ShiGeTen\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.0_d66664da1055e3830ec7a5e71b671a6589f13583.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\workspace\AndroidWorkspace\QFWorkSpace\ShiGeTen\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="07daa0b6e1d455c82a38422ffe287c18823d339a">
+        <dex dex="D:\workspace\AndroidWorkspace\QFWorkSpace\ShiGeTen\app\build\intermediates\pre-dexed\debug\com.android.support-support-fragment-25.0.0_b9bc5a2ca714a071bfe3fc8a09010a84f1ec1eb3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\workspace\AndroidWorkspace\QFWorkSpace\ShiGeTen\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="53a420cd4f49274db6bd43475f8006ba67ef6bbd">
+        <dex dex="D:\workspace\AndroidWorkspace\QFWorkSpace\ShiGeTen\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-25.0.0_8d7e62ab4bec6b60750b5ff4f2d6de453b6364d1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\workspace\AndroidWorkspace\QFWorkSpace\ShiGeTen\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.0\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ee5faf4dee5b6a4364bf51587871047dde7c703a">
+        <dex dex="D:\workspace\AndroidWorkspace\QFWorkSpace\ShiGeTen\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.0_c5e06cafbb0e8b136db111e13a3073342b3c9494.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\workspace\AndroidWorkspace\QFWorkSpace\ShiGeTen\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="26674000177e45447a0326a6ad84612761199a13">
+        <dex dex="D:\workspace\AndroidWorkspace\QFWorkSpace\ShiGeTen\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-ui-25.0.0_d7f1bcc88624c16bc081e633cfbd842ed80fb36b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\workspace\AndroidWorkspace\QFWorkSpace\ShiGeTen\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="eba133a7a01267f5ccda447eec6dc6d0fa188415">
+        <dex dex="D:\workspace\AndroidWorkspace\QFWorkSpace\ShiGeTen\app\build\intermediates\pre-dexed\debug\instant-run_c7881ea2d04631da63a98adb2cca9d24268b5d69.jar" />
+    </item>
+
+</items>

@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <RelativeLayout
+        android:id="@id/favorite"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/title_height"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@id/icon_favor"
+            android:layout_width="@dimen/setting_icon_height"
+            android:layout_height="@dimen/setting_icon_height"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/setting_margin_left"
+            android:background="@drawable/setting_favorite" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="6.0dip"
+            android:layout_toRightOf="@id/icon_favor"
+            android:text="我的收藏"
+            android:textAppearance="@style/settingItemFont" />
+
+        <ImageView
+            android:layout_width="@dimen/setting_icon_height"
+            android:layout_height="@dimen/setting_icon_height"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/setting_margin_right"
+            android:background="@drawable/setting_arrow" />
+    </RelativeLayout>
+
+    <View
+        android:id="@id/line3"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/line_height"
+        android:layout_below="@id/favorite"
+        android:layout_marginLeft="@dimen/setting_margin_left"
+        android:background="@color/line_back" />
+
+    <RelativeLayout
+        android:id="@id/fontsetting"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/title_height"
+        android:layout_below="@id/line3"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@id/icon_font"
+            android:layout_width="@dimen/setting_icon_height"
+            android:layout_height="@dimen/setting_icon_height"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/setting_margin_left"
+            android:background="@drawable/setting_font" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="6.0dip"
+            android:layout_toRightOf="@id/icon_font"
+            android:text="字体设置"
+            android:textAppearance="@style/settingItemFont" />
+
+        <ImageView
+            android:layout_width="@dimen/setting_icon_height"
+            android:layout_height="@dimen/setting_icon_height"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/setting_margin_right"
+            android:background="@drawable/setting_arrow" />
+    </RelativeLayout>
+
+    <View
+        android:id="@id/line4"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/line_height"
+        android:layout_below="@id/fontsetting"
+        android:layout_marginLeft="@dimen/setting_margin_left"
+        android:background="@color/line_back" />
+
+    <RelativeLayout
+        android:id="@id/aboutus"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/title_height"
+        android:layout_below="@id/line4"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@id/icon_about"
+            android:layout_width="@dimen/setting_icon_height"
+            android:layout_height="@dimen/setting_icon_height"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/setting_margin_left"
+            android:background="@drawable/setting_aboutus" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="6.0dip"
+            android:layout_toRightOf="@id/icon_about"
+            android:text="关于十个"
+            android:textAppearance="@style/settingItemFont" />
+
+        <ImageView
+            android:layout_width="@dimen/setting_icon_height"
+            android:layout_height="@dimen/setting_icon_height"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/setting_margin_right"
+            android:background="@drawable/setting_arrow" />
+    </RelativeLayout>
+
+    <View
+        android:id="@id/line5"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/line_height"
+        android:layout_below="@id/aboutus"
+        android:layout_marginLeft="@dimen/setting_margin_left"
+        android:background="@color/line_back" />
+
+    <RelativeLayout
+        android:id="@id/feedback"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/title_height"
+        android:layout_below="@id/line5"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@id/icon_feedback"
+            android:layout_width="@dimen/setting_icon_height"
+            android:layout_height="@dimen/setting_icon_height"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/setting_margin_left"
+            android:background="@drawable/setting_feedback" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="6.0dip"
+            android:layout_toRightOf="@id/icon_feedback"
+            android:text="意见反馈"
+            android:textAppearance="@style/settingItemFont" />
+
+        <ImageView
+            android:layout_width="@dimen/setting_icon_height"
+            android:layout_height="@dimen/setting_icon_height"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/setting_margin_right"
+            android:background="@drawable/setting_arrow" />
+    </RelativeLayout>
+
+    <View
+        android:id="@id/line6"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/line_height"
+        android:layout_below="@id/feedback"
+        android:layout_marginLeft="@dimen/setting_margin_left"
+        android:background="@color/line_back" />
+
+    <TextView
+        android:id="@id/tv_version"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10.0dip"
+        android:textAppearance="@style/settingversion" />
+</RelativeLayout>

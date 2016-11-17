@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">十个</string>
+
+    <string name="author_times">作者：<xliff:g id="author">%1$s</xliff:g>   | 阅读量：<xliff:g id="tims">%2$s</xliff:g></string>
+
+    <string name="press_again_to_exit">再按一次将退出十个</string>
+    <string name="tip_create">已创建“十个”快捷方式</string>
+    <string name="example_content">我已经老了，在人来人往的大厅，有一位老人他向我走来，他说我认识你，那时的你还很年轻，美丽，你的身边有许许多多的追求者，不过跟那时相比，我更喜欢现在你这经历了沧桑的容颜？</string>
+    <string name="example_name">—《情人》</string>
+    <string name="product_description">"每晚十点更新一篇影评,一篇文章,每晚入睡前用上十分钟读到最美内容，影评独特而温馨，文章兼顾见识与审美，也许很长也许很短，但必定值得耐心阅读。"</string>
+    <string name="product_author">监制:半杯咖啡     技术:晓华     视觉:阿黄</string>
+    <string name="product_link">投稿:shigeten@qq.com     合作:551608331 (QQ)</string>
+    <string name="already_first">已经是最新内容了</string>
+    <string name="already_last">只有十(9)篇内容可查看</string>
+    <string name="brief_default">十个 每晚十点推送:一篇影评,一篇美文,一组美图,每晚入睡前用上十分钟读到最美内容.</string>
+    <string name="wechat">方式一：搜索微信公众账号“十个”\n方式二:搜索账号“shigeten”</string>
+    <string name="umeng_common_action_info_exist">The app is already in downloading list.</string>
+    <string name="umeng_common_info_interrupt">dowload interrupted.</string>
+    <string name="umeng_common_action_pause">Pause</string>
+    <string name="umeng_common_action_continue">Continue</string>
+    <string name="umeng_common_action_cancel">Cancel</string>
+    <string name="umeng_common_download_notification_prefix">Downloading:</string>
+    <string name="umeng_common_pause_notification_prefix">Pause:</string>
+    <string name="umeng_common_start_download_notification">Download start.</string>
+    <string name="umeng_common_start_patch_notification">Patch start.</string>
+    <string name="umeng_common_network_break_alert">Please make sure you are connected to internet, download failed</string>
+    <string name="umeng_common_download_failed">Download Failed!</string>
+    <string name="umeng_common_download_finish">Download finished,click to install it.</string>
+    <string name="umeng_common_patch_finish">Patch finished,click to install it.</string>
+    <string name="umeng_common_silent_download_finish">New version is ready,click to install it.</string>
+    <string name="umeng_common_icon">icon</string>
+    <string name="UMBreak_Network">Please make sure you are connected to internet,update failed</string>
+    <string name="UMUpdateTitle">New version found</string>
+    <string name="UMNewVersion">Latest version:</string>
+    <string name="UMUpdateContent">Update Content</string>
+    <string name="UMUpdateSize">Update size:</string>
+    <string name="UMTargetSize">Target size:</string>
+    <string name="UMGprsCondition">(Warning: Not WIFI Condition)</string>
+    <string name="UMUpdateNow">Update now</string>
+    <string name="UMAppUpdate">App updating</string>
+    <string name="UMNotNow">Not now</string>
+    <string name="UMIgnore">Ingore this</string>
+    <string name="UMToast_IsUpdating">Updating....</string>
+    <string name="UMDialog_InstallAPK">The lastest version has been downloaded, install now ?</string>
+    <string name="UMUpdateCheck">2.4.2.20140520</string>
+</resources>
